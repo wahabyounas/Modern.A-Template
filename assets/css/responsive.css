@@ -1,0 +1,232 @@
+@media only screen and (max-width: 576px){
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+}
+
+@media only screen and (max-width: 768px){
+    
+    .extra-nav{
+        
+          right: 15%;
+        }
+    }
+    @media only screen and (max-width: 576px){
+    
+        .extra-nav{
+            
+            display: none;
+            }
+        }
+
+    @media only screen and (max-width: 576px){
+    .main-banner {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 576px){
+    .banner-text{
+        padding-top: 100px !important;
+        padding: 70px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .banner-text h1{
+        font-size: 70px;
+        letter-spacing: 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner-text h1{
+        font-size: 50px;
+        letter-spacing: 20px !important;
+        font-weight: 600px !important;
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 576px)
+{
+    .banner-text h1{
+        font-size: 45ppx;
+        letter-spacing: 21px !important;
+        font-weight: 600px;
+    }
+    }
+    @media only screen and (max-width: 458px){
+        .banner-text h1{
+        font-size: 35px;
+        letter-spacing: 15px !important;
+    }
+    .main-banner .button{
+        padding: 15px 15px;
+                }
+}
+    @media only screen and (max-width: 360px){
+        .banner-text h1{
+        font-size: 30px;
+        letter-spacing: 5px !important;
+        font-weight: 600;
+    }
+    .main-banner .button{
+        padding: 0 5px 0 5px;
+                }
+                .button--pan span {
+                    letter-spacing: 3px;
+                    font-size: 12px;
+                    line-height: 0px;
+                }
+    }
+
+    @media only screen and (max-width: 320px) and (min-width:280px) {
+        .button--pan span {
+            font-size: 10px;
+            line-height: 20px;
+        }
+        .main-banner .button{
+            padding: 10px 5px;
+                    }
+    }
+@media only screen and (max-width: 360px){
+.w-span {
+    font-size: 18px;
+    line-height: 24px;
+}
+.w-h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.welcome-content .button{
+    padding: 0 15px 0 15px;
+}
+}
+@media only screen and (max-width: 768px){
+.my-carousel::after {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 991px){
+.my-carousel {
+
+    margin-left: 0px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 420px){
+    .my-carousel {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    }
+/* .my-carousel::after{
+    display: none;
+} */
+.section-bg-txt span{
+    font-size: 16px;
+}
+}
+/* @media only screen and (max-width: 991px){
+.m-carousel-1 {
+    margin-bottom: 80px;
+}
+} */
+@media only screen and (max-width: 600px){
+.plr-80 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+@media only screen and (max-width: 1200px){
+.project-content {
+    clear: both;
+    float: none;
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width: 460px){
+.m-carousel-2 .carousel-hover .carousel-line h2 {
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 460px){
+.m-carousel-2 .carousel-hover .carousel-line p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+}
+
+@media only screen and (max-width: 991px){
+.counter-content {
+    padding-left: 0px;
+}
+}
+
+@media only screen and (max-width: 991px){
+    .counter-content {
+        padding-left: 0px;
+    }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+.wt-left-part {
+    clear: both;
+    float: none;
+    padding-left: 30px;
+}
+    }
+
+    @media only screen and (max-width: 991px){
+.wt-right {
+    padding-right: 0px;
+}
+    }
+   
+
+
+@media only screen and (max-width: 576px){
+    
+.our-expert-bot-text strong {
+          font-size: 50px;
+  
+ 
+} 
+}
+@media only screen and (max-width: 991px){
+.counter-main {
+    padding-top: 40px;
+}
+
+.counter-facts {
+    margin-right: 15px;
+}
+}
+@media only screen and (max-width: 576px){
+.counter-content h2 {
+    font-size: 30px;
+  
+}
+.counter-content span {
+    font-size: 30px;
+    
+}
+.counter-content p {
+    font-size: 16px;
+    
+}
+}
+/* @media only screen and (max-width: 576px)
+{
+.counter-facts:after, .counter-facts:before {
+    
+    right: 15px;}
+    
+} */
+@media only screen and (max-width: 576px){
+    .navbar-toggler{
+padding: -0.75rem 0.75rem !important;
+    }
+}
