@@ -179,7 +179,7 @@ border-color: #000;
  ======================================== */
   .navbar .navbar-nav .nav-item .active{
     background-color: transparent;
-    color: #ababab !important;
+    color: black !important;
   }
   /* .navbar{
     background-color: white;
