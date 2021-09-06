@@ -159,6 +159,10 @@
        .our-expert-content{
            float: none;
        }
+       .team-outer{
+           margin-top:50px ;
+       }
+
 }
 @media only screen and (max-width: 460px){
 .m-carousel-2 .carousel-hover .carousel-line p {
@@ -212,6 +216,9 @@
 @media only screen and (max-width: 768px){
     .counter-main {
         padding-top: 40px;
+    }
+    .txt-md-center{
+        text-align: center;
     }
 
 .counter-facts {
