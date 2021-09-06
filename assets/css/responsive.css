@@ -150,6 +150,16 @@
     font-size: 15px;
 }
 }
+@media only screen and (max-width: 1200px){
+    .our-expert-bot-text{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+       .our-expert-content{
+           float: none;
+       }
+}
 @media only screen and (max-width: 460px){
 .m-carousel-2 .carousel-hover .carousel-line p {
     text-overflow: ellipsis;
@@ -197,8 +207,12 @@
 }
 @media only screen and (max-width: 991px){
 .counter-main {
-    padding-top: 40px;
+    padding-top: 180px;
 }
+@media only screen and (max-width: 768px){
+    .counter-main {
+        padding-top: 40px;
+    }
 
 .counter-facts {
     margin-right: 15px;
@@ -229,4 +243,4 @@
     .navbar-toggler{
 padding: -0.75rem 0.75rem !important;
     }
-}
+}}

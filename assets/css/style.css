@@ -48,6 +48,9 @@ img {
 .font-36{
   font-size: 36px;
 }
+.align-middle{
+  align-items: center;
+}
 .bg-white{
   background-color: #fff;
 }
@@ -276,6 +279,14 @@ border-color: #000;
    text-decoration: underline;
    font-size: 12px;
  }
+ .btn-outline-success {
+  color:black;
+  border-color: black;
+}
+.btn-outline-success:hover {
+  color:white;
+  background-color: black;
+}
   /*======================================
  ============== main-banner =============
  ======================================== */
@@ -332,17 +343,17 @@ border-color: #000;
  }
  .w-h2{
    font-size: 40px;
-   line-height: 46px;
+   line-height: 40px;
    font-weight: bold;
 
  }
  .w-p{
    font-size: 12px;
-   line-height: 24px;
+   line-height: 18px;
  }
 .para-2{
   font-size: 14px;
-  line-height: 24px;
+  line-height: 18px;
 }
  .my-carousel::after{
   content: "";
@@ -484,7 +495,11 @@ color: #333333;
     transition: all 0.7s linear;
     /* opacity: 0; */
 }
-
+.designs-overlay-content a:hover{
+  color: white !important;
+  text-decoration: none;
+  transition: .5s all ease;
+}
 .hilite-title.bdr-right {
   border-right: 10px;
   border-style: solid;
@@ -699,10 +714,8 @@ color: #333333;
    width: 100%;
    height: auto;
  }
- .wt-left{
-   float: right;
- }
- .wt-left, .wt-right{
+ 
+.wt-right{
    width: 555px;
  }
 .our-expert-info h3{
@@ -723,6 +736,9 @@ color: #333333;
   height: 36px;
   line-height: 36px;
   padding: 0;
+}
+.our-expert-bot-text{
+  margin-left: 120px;
 }
 .our-expert-bot-text strong{
   display: block;
@@ -879,7 +895,7 @@ color: #333333;
 }
 .overlay-wrapper-2{
   position: relative;
-  background: url(/assets/images/blogs3\ .1.jpg);
+  background: url(/assets/images/blogs4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 525px;
@@ -1074,12 +1090,12 @@ padding-top: 100px;
   left: 0px;
   top: -3px;
   width: 30px;
-  height: 3px;
+  height: 4px;
 }
 .testimonials-pic::after{
   left: -3px;
   top: -3px;
-  width: 3px;
+  width: 4px;
   height: 30px;
 }
 @media only screen and (max-width: 620px){
@@ -1117,7 +1133,6 @@ padding-top: 100px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
-  padding-left: 5px;
 }
 
 
