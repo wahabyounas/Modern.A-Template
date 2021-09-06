@@ -1185,8 +1185,10 @@ padding-top: 100px;
   width: 100%;
   padding: 0px 80px;
 }
-.p-t30 {
+.ptlr-t30 {
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .wt-footer-bot-left {
   float: left;
@@ -1198,10 +1200,6 @@ padding-top: 100px;
 .p-t15 {
   padding-top: 15px;
 }
-.text-center {
-  text-align: center;
-}
-
 .footer-bottom .copyrights-text {
   color: #000;
 }
