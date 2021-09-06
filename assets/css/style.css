@@ -291,7 +291,7 @@ border-color: #000;
  ============== main-banner =============
  ======================================== */
  .main-banner{
-  background-image: url("/assets/images/stephan-bechert-yFV39g6AZ5o-unsplash1.jpg"); 
+  background-image: url("../images/stephan-bechert-yFV39g6AZ5o-unsplash1.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
