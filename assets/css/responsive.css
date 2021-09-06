@@ -11,15 +11,11 @@
         
           right: 15%;
         }
-    }
-    @media only screen and (max-width: 576px){
-    
         .extra-nav{
             
             display: none;
             }
-        }
-
+    }
     @media only screen and (max-width: 576px){
     .main-banner {
         height: auto;
@@ -150,11 +146,7 @@
     font-size: 15px;
 }
 }
-@media only screen and (max-width: 1200px){
-    .our-expert-bot-text{
-        margin-left: 0;
-    }
-}
+
 @media only screen and (max-width: 768px){
        .our-expert-content{
            float: none;
@@ -214,11 +206,12 @@
     padding-top: 180px;
 }
 @media only screen and (max-width: 768px){
-    .counter-main {
-        padding-top: 40px;
-    }
+
     .txt-md-center{
         text-align: center;
+    }
+    .counter-main{
+        padding-top: 40px;
     }
 
 .counter-facts {
