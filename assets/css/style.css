@@ -291,7 +291,7 @@ border-color: #000;
  ============== main-banner =============
  ======================================== */
  .main-banner{
-  background: url(assets/images/stephan-bechert-yFV39g6AZ5o-unsplash1.jpg); 
+  background: url(/assets/images/stephan-bechert-yFV39g6AZ5o-unsplash1.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -532,7 +532,7 @@ color: #333333;
  ============== projects =============
  ======================================== */
 #projects{
-  background: url(assets/images/backgroung.png);
+  background: url(/assets/images/backgroung.png);
   background-repeat: repeat;
   padding-top: 90px;
     padding-bottom: 80px;
@@ -1068,7 +1068,7 @@ border-right: 0px;
  ============== testimonials =============
  ======================================== */
 #testimonials{
-background: url(/assets/images/backgroung.png);
+background: url("assets/images/backgroung.png");
 padding-top: 100px;
 }
 .testimonials-pic{
