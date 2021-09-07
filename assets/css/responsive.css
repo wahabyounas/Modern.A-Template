@@ -25,6 +25,9 @@
     .main-banner {
         height: auto;
     }
+    .wt-right{
+        padding: 0%;
+    }
 }
 @media only screen and (max-width: 576px){
     .banner-text{
