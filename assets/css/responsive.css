@@ -4,7 +4,12 @@
     height: auto;
 }
 }
-
+@media only screen and (max-width: 1250px){
+    .wt-right{
+        width: 100%;
+        padding: 30px;
+    }
+}
 @media only screen and (max-width: 768px){
     
     .extra-nav{
@@ -214,9 +219,13 @@
         padding-top: 40px;
     }
 
+
 .counter-facts {
     margin-right: 15px;
 }
+.wt-footer-bot-left {
+    text-align: center !important;
+  }
 }
 @media only screen and (max-width: 576px){
 .counter-content h2 {

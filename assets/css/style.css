@@ -1078,7 +1078,7 @@ border-right: 0px;
  ============== testimonials =============
  ======================================== */
 #testimonials{
-background-image: url("/assets/images/backgroung.png");
+background-image: url("../images/backgroung.png");
 padding-top: 100px;
 }
 .testimonials-pic{
@@ -1197,11 +1197,11 @@ padding-top: 100px;
 }
 .ptlr-t30 {
   padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
 }
 .wt-footer-bot-left {
-  float: left;
+  text-align: right;
 }
 .wt-footer-bot-left {
   padding-left: 15px;
