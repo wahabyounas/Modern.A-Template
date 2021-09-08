@@ -22,6 +22,13 @@ a {
   outline: 0 none;
   text-decoration: none;
 }
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000;
+}
 img {
   border-style: none;
   height: auto;
@@ -188,6 +195,9 @@ border-color: #000;
 .button--pan:hover::before {
   color: #000;
 	transform: translate3d(0,-100%,0);
+}
+.btn:hover{
+  color: #FFFFFF;
 }
 /*======================================
  ============== navbar =============
@@ -356,9 +366,10 @@ border-color: #000;
   margin-left: 40px;
 }
  .w-span{
-   font-weight: 300;
-   font-size: 30px;
-   line-height: 36px;
+  font-weight: 200;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -1px;
  }
  .w-h2{
    font-size: 40px;
@@ -367,13 +378,11 @@ border-color: #000;
 
  }
  .w-p{
-   font-size: 12px;
-   line-height: 18px;
- }
-.para-2{
   font-size: 14px;
-  line-height: 18px;
-}
+  line-height: 20px;
+  font-weight: 400;
+  font-family:Poppins,sans-serif;
+ }
  .my-carousel::after{
   content: "";
     position: absolute;
@@ -418,6 +427,7 @@ padding-right: 80px;
 
 .btn-active{
   color: #D5DD02 !important;
+  padding-left: 0!important;
 }
 .btn-filter-wrap li{
   position: relative;
@@ -468,56 +478,67 @@ padding-right: 80px;
     opacity: 0;
     transition: all 0.5s linear;
 }
-.designs-overlay-content h2 a{
-  color:white;
+.line-animation{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.d-overlay-content{
+  padding: 40px;
+}
+.d-overlay-content h2 a{
   font-size: 20px;
   line-height: 26px;
-  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.d-overlay-content a{
+  font-size: 12px;
+  letter-spacing: 4px;
   text-decoration: none;
 }
-.overlay-heading:hover{
-color: #333333;
+
+.d-overlay-content a.v-button{
+  color: #fff;
+  border-left: 2px solid;
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  right: -40px;
+ transform: rotate(-90deg);
 }
-.designs-overlay-content p{
-  font-size: 12px;
+.d-overlay-content a:hover{
+  color: #777777 !important;
+}
+.line-animation:after, .line-animation:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 20px;
+  top: 20px;
+  transition: all 0.7s linear;
+  opacity: 0;
+}
+.line-animation:before {
+  width: 1px;
+  height: 0px;
+}
+.line-animation:hover:before {
+  height: 100%;
+  top: -20px;
+  opacity: 1;
+}
+.line-animation:after {
+  width: 0%;
+  height: 1px;
+}
+.line-animation:hover:after {
+  width: 100%;
+  opacity: 1;
+  left: -20px;
 }
 .designs-overlay:hover{
   opacity: 0.9;
   bottom: 0px;
-}
-
-.designs-overlay:hover::before{
-  
-    height: 100%;
-    top: -20px;
-    opacity: 1;
-}
-.designs-overlay:hover:after {
-  width: 100%;
-  opacity: 1;
-  left: -20px;
-  top: 89%;
-}
-.designs-overlay:before {
-  width: 1px;
-  /* height: 0px; */
-}
-.designs-overlay:after {
-  /* width: 0%; */
-  height: 1px;
-}
-.designs-overlay::after, .designs-overlay::before{
-  content: "";
-    position: absolute;
-    background-color: #fff;
-    left: 20px;
-    transition: all 0.7s linear;
-    /* opacity: 0; */
-}
-.designs-overlay-content a:hover{
-  color: white !important;
-  text-decoration: none;
-  transition: .5s all ease;
 }
 .hilite-title.bdr-right {
   border-right: 10px;
@@ -547,6 +568,80 @@ color: #333333;
   line-height: 24px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+/*======================================
+ ============== About-us =============
+ ======================================== */
+ #about-us{
+   padding-top: 140px;
+   background-image:url(../images/backgroung.png);
+   background-repeat: repeat;
+ }
+ .video-content-square{
+   position: absolute;
+   right: 120px;
+   bottom: 80px;
+   width: 400px;
+   min-height: 350px;
+   border: 15px solid white;
+   border-right: none;
+   padding: 50px;
+ }
+ .video-content-square::after, .video-content-square::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 15px;
+  height: 140px;
+  right: 0px;
+ }
+ .video-content-square::after{
+     top:-15px
+ }
+ .video-content-square::before{
+      bottom: -1px;
+ }
+ .video-icon{
+  position: absolute;
+    right: 45%;
+    bottom: 45%;
+}
+ .video-icon a i{
+   font-size: 55px;
+   color: white;
+ }
+ .video-wrapper{
+   
+  margin-right: 100px;
+  margin-bottom: 50px;
+  /* margin-left: 40px; */
+  position: relative;
+  background-image: url("../images/welcome2.jpg");
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 500px;
+   padding: 50px;
+   border-left: 0px;
+   border-bottom: 0px;
+ }
+ .video-wrapper::after{
+  content: "";
+    position: absolute;
+    top: -60px;
+    left: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 25px solid rgba(0, 0, 0, 0.329);
+    z-index: -1;
+ }
+ .video-bg-img{
+  position: absolute;
+  right: -65px;
+  top: -50px;
+  width: 100%;
+  z-index: -1;
+ }
 /*======================================
  ============== projects =============
  ======================================== */
@@ -645,9 +740,7 @@ color: #333333;
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
-}
-
- 
+} 
  .expert-section{
    /* padding-top: 70px; */
    padding-bottom: 70px;
@@ -670,7 +763,7 @@ color: #333333;
  }
 .our-expert-info h3{
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .our-expert-icons li{
   display: inline-block;
@@ -697,7 +790,10 @@ color: #333333;
 .team-outer {
   margin-top: 198px;
 }
-.wt-right{
+.wt-left{
+  float: right;
+}
+.wt-right, .wt-left{
   width: 555px;
 }
 .team-img{
@@ -818,17 +914,6 @@ color: #333333;
   background-color: #000;
    /* padding-left: 40px; */
 }
-@media only screen and (max-width: 324px){
-  
-.latest-blog-dark h3{
-  font-size: 15px;
-}
-  }
-  @media only screen and (max-width: 1024px){
-.latest-blog-dark {
-    left: 5px;
-}
-  }
   
 .latest-blog-dark h3{
   padding-left: 25px;
@@ -838,7 +923,7 @@ color: #333333;
 .blogs-date{
   position: absolute;
   left: -32px;
-    top: 48px;
+  top: 48px;
   transform: rotate(-90deg);
   font-weight: bold;
   font-size: 14px;
@@ -852,26 +937,13 @@ color: #333333;
 }
 .latest-blogs-square{
   position: absolute;
-  right: -20px;
+  right: -35px;
   bottom: 60px;
   width: 390px;
   min-height: 400px;
   padding: 25px 60px 25px 25px;
   border: 15px solid #000;
 }
-@media screen and (max-width: 1024px){
-.latest-blogs-square {
-    right: 15px;
-    width: 80%;
-}
-
-}
-@media only screen and (max-width: 480px){
-.latest-blogs-square {
-    padding: 15px;
-}
-}
-
 .latest-blogs-square h2{
   font-size: 30px;
   line-height: 36px;
@@ -902,15 +974,6 @@ color: #333333;
   
   color: rgba(191,191,191,0.3);
 }
-@media only screen and (max-width: 400px){
-  .section-bg-txt strong{
-    font-size: 65px;
-    line-height: 56px;
-      
-  }
-}
-
-
 
 .section-bg-txt span{
   display: block;
@@ -947,17 +1010,7 @@ position: relative;
 padding: 60px 30px 60px 50px;
 border: 15px solid #fff;
 border-right: 0px;
-}
-@media only screen and (max-width: 400px){
- 
-  .counter-facts{
-   
-    padding: 33px 23px 10px 16px;
-    max-width: 350px;
-}
-   
-    }
-  
+}  
 .overlay-main{
   position: absolute;
   top: 0;
@@ -1047,12 +1100,6 @@ padding-top: 100px;
   top: -3px;
   width: 4px;
   height: 30px;
-}
-@media only screen and (max-width: 620px){
-.hola strong {
-    font-size: 46px;
-    line-height: 46px;
-}
 }
 .testimonials-text{
   position: relative;
@@ -1180,45 +1227,12 @@ padding-top: 100px;
 .site-footer li {
   line-height: 20px;
 }
-@media only screen and (max-width: 991px){
-.wt-footer-bot-left {
-    float: none;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-}
 
-@media only screen and (max-width: 991px){
-.copyright-block {
-    padding-top: 5px;
-}
-}
-@media only screen and (max-width: 991px){
- .wt-footer-bot-right {
-    float: none;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-}
-
-@media only screen and (max-width: 991px){
-.wt-footer-bot-right .copyrights-nav {
-    float: none !important;
-}
-}
-
-@media only screen and (max-width: 620px){
-.section-bg-txt strong {
-    font-size: 40px;
-    line-height: 46px;
-}
 .hilite-title strong {
   font-size: 40px;
   line-height: 46px;
 }
-}
+
 
 /* ======    BOTTOM TO TOP BUTTON  =======*/
 .totop {
@@ -1239,13 +1253,4 @@ padding-top: 100px;
   height: 44px;
   width: 44px;
 }
-
-
-@media only screen and (max-width: 768px){
-  .nav-search-icon {
-    position: absolute;
-    right: 20%;
-    bottom: 25%;
-  }
-  }
 

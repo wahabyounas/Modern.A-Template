@@ -16,12 +16,11 @@
 // 	navbar.classList.remove("sticky");
 //   }
 // }
-// //   VenoBox 
-// $(document).ready(function() {
-// $('.venobox').venobox({
-// 	'share': false
-// });
-// });
+  //VenoBox 
+//  
+$(document).ready(function(){
+	$('.venobox').venobox(); 
+});
 // //counter
 // // $('[.counter"]').counterUp({
 // // 	delay: 10,
@@ -140,7 +139,7 @@ $('#welcome-carousel').owlCarousel({
 	            items:2
 	        },
 	        1000:{
-	            items:4
+	            items:5
 	        }
 	    }
 	})
