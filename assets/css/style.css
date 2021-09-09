@@ -72,6 +72,9 @@ img {
 .bg-black{
   background-color: black;
 }
+.bg-black-1{
+  background-color: rgba(0, 0, 0, 0.26);
+}
 .bg-grey{
   background-color: #f6f7f8;
 }
@@ -552,8 +555,9 @@ padding-right: 80px;
  }
  .video-icon{
   position: absolute;
-    right: 45%;
-    bottom: 45%;
+    right: 40%;
+    bottom: 40%;
+    transform: translate(-50%,-50%);
 }
  .video-icon a i{
    font-size: 55px;
@@ -729,6 +733,11 @@ padding-right: 80px;
   height: 36px;
   line-height: 36px;
   padding: 0;
+  transition: .3s all ease-in-out;
+}
+.our-expert-icons li a i:hover{
+  background-color: white;
+  color: #000;
 }
 .our-expert-bot-text strong{
   display: block;
@@ -780,12 +789,17 @@ padding-right: 80px;
 }
 .team-icons ul li a i{
   background-color: #fff;
-  color: #777;
-  border: 1px solid rgba(0,0,0,0.2);
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  padding: 0;
+    color: #777;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    padding: 0;
+    font-size: 22px;
+}
+.team-icons ul li a i:hover{
+  background-color: black;
+  color: white;
 }
 .team-icons ul li a i:hover{
  background-color: black;
