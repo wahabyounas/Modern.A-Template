@@ -125,6 +125,15 @@
           line-height: 46px;
             
         }
+        .slider-area{
+            height: 60vh;
+        }
+        .carousel-item img{
+            min-height: 60vh;
+        }
+        .video-icon{
+            right:35%
+        }
       }
       
 @media only screen and (max-width: 576px)
