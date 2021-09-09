@@ -138,9 +138,15 @@ $('#welcome-carousel').owlCarousel({
 	        600:{
 	            items:2
 	        },
-	        1000:{
-	            items:5
-	        }
+	        800:{
+	            items:3
+	        },
+			1000:{
+	            items:4
+	        },
+			1200:{
+				items:5
+			}
 	    }
 	})
 

@@ -26,6 +26,10 @@
                 display: none;
                 margin-right: 0;
             }
+            .carousel-caption h5{
+                font-size: 70px;
+                letter-spacing: 25px !important;
+            }
     }
     @media only screen and (max-width: 576px){
     .main-banner {
