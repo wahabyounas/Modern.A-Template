@@ -96,7 +96,7 @@
     .section-bg-txt strong {
         font-size: 40px;
         line-height: 46px;
-    }
+    }}
 @media only screen and (max-width: 620px){
     .hola strong {
         font-size: 46px;
@@ -198,12 +198,11 @@
     margin-left: 0px;
     margin-bottom: 80px;
     margin-top: 15px;
-}
+}}
 @media only screen and (max-width: 420px){
     .my-carousel {
         margin-left: 0px;
         margin-bottom: 0px;
-    }
     }
 /* .my-carousel::after{
     display: none;
@@ -280,6 +279,31 @@
 }
     }
    
+  
+    @media only screen and (max-width: 420px){
+.d-overlay-content a.v-button {
+    bottom: 70px;
+}
+.d-overlay-content h2 a{
+    font-size: 14px;
+    line-height: 14px;
+}
+.d-overlay-content{
+    padding: 20px 30px;
+}
+.d-overlay-content a{
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.w-p{
+    display: none;
+}
+}
+@media only screen and (max-width: 360px){
+    .d-overlay-content a.v-button {
+        bottom: 60px;
+        right: -45px;
+    }}
 
 
 @media only screen and (max-width: 576px){
@@ -293,7 +317,7 @@
 @media only screen and (max-width: 991px){
 .counter-main {
     padding-top: 180px;
-}
+}}
 @media only screen and (max-width: 768px){
 
     .txt-md-center{
@@ -338,9 +362,13 @@
       right: 20%;
       bottom: 25%;
     }
+    .banner-title-name{
+        width: auto;
     }
+    }
+    
 @media only screen and (max-width: 576px){
     .navbar-toggler{
 padding: -0.75rem 0.75rem !important;
     }
-}}}
+}

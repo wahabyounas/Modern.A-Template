@@ -89,6 +89,9 @@ img {
 .opacity-04{
   opacity: 0.4;
 }
+.opacity-08{
+  opacity: 0.7;
+}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: black;
 }
@@ -329,7 +332,11 @@ img {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  font-family:Poppins,sans-serif;
+ }
+ .w-p-2{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
  }
  .my-carousel::after{
   content: "";
@@ -1075,7 +1082,137 @@ padding-top: 100px;
   line-height: 30px;
 }
 
-
+/*======================================
+ ============== blogs-page =============
+ ======================================== */
+ .news-banner{
+   position: relative;
+   background-image: url(../images/news-banner.jpeg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 500px;
+   display: table;
+   width: 100%;
+ }
+ .banner-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner-title-outer{
+  position: relative;
+  padding: 70px 0px 70px 30px;
+  border: 10px solid #fff;
+  border-right: 0px;
+  width: 200px;
+}
+.banner-title-name{
+  width: 600px;
+}
+.banner-h2{
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+.banner-title-outer::after, .banner-title-outer::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  right: 0%;
+  height: 50px;
+  background-color: white;
+}
+.banner-title-outer::after{
+  top: 0;
+}
+.banner-title-outer::before{
+  bottom: 0;
+}
+.banner-breadcrums{
+  margin: 0;
+  list-style: none;
+}
+.banner-breadcrums li{
+  padding: 0;
+  margin-right: 3px;
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+}
+.banner-breadcrums li a{
+  color: white !important;
+}
+/*======================================
+ ============== blogs-filter-gallery =============
+ ======================================== */
+ /*
+ .filter-wrap{
+   padding: 50px 0;
+ }
+ .masonry-filter{
+  display: table; 
+  margin: 0;
+ }
+ .masonry-filter li{
+   display: inline-block;
+   margin-right: 30px;
+   position: relative;
+ }
+ .link-style li a{
+   font-size: 16px;
+   color: black !important;
+   font-weight: 600 !important;
+ }
+ .link-style li::after{
+   content: "/";
+   position: absolute;
+   right: -18px;
+   opacity: 0.3;
+ }
+ .link-style > li.active a, .link-style > li a:hover, .link-style > li a:active, .link-style > li a:focus {
+  color: #a0a0a0 !important;
+} */
+#blogs-gallery{
+  position: relative;
+  padding: 90px 0;
+}
+.filter-button{
+  font-size: 18px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 8px 20px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.filter-button.active,.filter-button:hover{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.btn-default:active .filter-button:active{
+  background-color: #000000;
+  color: white;
+}
+.portfolio-overlay{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(236, 74, 113, 0.8);
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.portfolio-overlay:hover{
+  opacity: 1;
+}
 /*======================================
  ============== footer =============
  ======================================== */
@@ -1100,11 +1237,11 @@ padding-top: 100px;
 } */
 
 .footer-light .footer-bottom {
-  background-color: #f6f7f8;
+  background-color: #f5f5f5;
 }
 .footer-bottom {
   padding: 100px 0px;
-  color: #787878;
+  color:#787878;
   font-size: 13px;
 }
 .overlay-wraper {
@@ -1166,6 +1303,9 @@ padding-top: 100px;
   display: inline-block;
   /* margin-left: 8px; */
   margin-right: 8px;
+}
+.site-footer{
+  border-top: 1px solid #dadada;
 }
 .site-footer li {
   line-height: 20px;
