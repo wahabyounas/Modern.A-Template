@@ -1074,13 +1074,15 @@ padding-top: 100px;
 }
 .testimonials-name{
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 34px;
 }
 .testimonials-position{
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 20px;
 }
 .testimonials-paragraph p{
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
 }
 /*======================================
@@ -1256,7 +1258,7 @@ padding-top: 100px;
 .footer-bottom {
   padding: 100px 0px;
   color:#787878;
-  font-size: 13px;
+  font-size: 14px;
 }
 .overlay-wraper {
   position: relative;
@@ -1322,12 +1324,20 @@ padding-top: 100px;
   border-top: 1px solid #dadada;
 }
 .site-footer li {
+  font-size: 14px;
   line-height: 20px;
+}
+.site-footer i a{
+  text-decoration: none !important;
+  transition: .3s all ease-in-out;
+}
+.site-footer li a:hover{
+ color: #000;
 }
 
 .hilite-title strong {
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 80px;
+  line-height: 70px;
 }
 
 
