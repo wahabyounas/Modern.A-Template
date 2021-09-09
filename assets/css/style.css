@@ -102,47 +102,6 @@ img {
   transition: opacity .2s ease;
   border: 1px solid !important;
 }
-/* .btn{
-  color: #fff;
-  background-color: #000;
-  padding: 5px 14px;
-  border: 1px solid #000;
-  border-radius: 0px;
-  position: relative;
-  overflow: hidden;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-}
-.btn::before{
-content: "";
-height: 0;
-width: 100%;
-position: absolute;
-top: 0;
-left: 0;
-background-color: #fff;
-transition: .5s all ease;
--webkit-transition: .5s all ease;
--moz-transition: all .5s ease;
--ms-transition: all .5s ease;
--o-transition: all .5s ease;
-}
-.btn span{position: relative;}
-.btn span::after{
-content: '\f340';
-font-family: "Font Awesome 5 Pro";
-padding-left: 5px;
-}
-.btn:focus{box-shadow: none;}
-.btn:hover{
-color: #fff;
-background-color: #fff;
-border-color: #000;
-}
-.btn:hover::before{height: 100%;} */
 .button {
 	pointer-events: auto;
 	cursor: pointer;
@@ -163,7 +122,6 @@ border-color: #000;
 	width: 100%;
 	height: 100%;
 }
-
 .button--pan {
   font-family: Montserrat;
 	border: 1px solid #000;
@@ -185,13 +143,11 @@ border-color: #000;
   font-family: Montserrat;
   text-transform: uppercase;
 }
-
 .button--pan::before {
 	content: '';
 	background: #000;
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
-
 .button--pan:hover::before {
   color: #000;
 	transform: translate3d(0,-100%,0);
@@ -206,14 +162,7 @@ border-color: #000;
     background-color: transparent;
     color: black !important;
   }
-  /* .navbar{
-    background-color: white;
-    padding: 1rem 5rem;
-    width: 100%;
-    position: fixed;
-    z-index: 9999;
-  } */
- 
+  
   .navbar-brand img{
     width: 140px;
     height: auto;
@@ -336,7 +285,6 @@ border-color: #000;
 .carousel .carousel-item {
   height: 90vh;
 }
-
 .carousel-item img {
     position: absolute;
     object-fit:cover;
@@ -450,11 +398,6 @@ padding-right: 80px;
 .btn-filter-wrap li:first-child:after {
   display: none;
 }
-/* .projects-item{
-  width: 260px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-} */
 .projects{
   display: flex;
   flex-wrap: wrap;
