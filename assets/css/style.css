@@ -1230,6 +1230,22 @@ padding-top: 100px;
   opacity: 1;
 }
 /*======================================
+ ============== contact =============
+ ======================================== */
+#contact{
+  padding: 90px 0;
+}
+.wt-box{
+  position: relative;
+}
+.contact-one{
+  padding: 40px;
+  padding-right: 150px;
+  border: 6px solid #000;
+  position: relative;
+  max-width: 945px;
+}
+/*======================================
  ============== footer =============
  ======================================== */
  /* .footer-wide .container-fluid{
