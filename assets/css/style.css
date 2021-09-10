@@ -1377,7 +1377,7 @@ padding-top: 100px;
   background-color: #fffefe;
 }
 .footer-bottom {
-  padding: 50px 0px;
+  padding: 70px 0px;
   color:#787878;
   font-size: 14px;
 }
@@ -1442,7 +1442,7 @@ padding-top: 100px;
   margin-right: 8px;
 }
 .site-footer{
-  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
 }
 .site-footer li {
   font-size: 14px;
