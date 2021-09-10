@@ -95,6 +95,15 @@ img {
 .opacity-08{
   opacity: 0.7;
 }
+.align{
+  align-self: center;
+}
+.bold{
+  font-weight: bold;
+}
+.relative{
+  position: relative;
+}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: black;
 }
@@ -1307,6 +1316,41 @@ padding-top: 100px;
   font-size: 14px;
 }
 /*======================================
+ ============== subscription =============
+ ======================================== */
+ #subscribe-area{
+  padding-top: 50px;
+  color: black;
+  background-color: #fffefe;
+ }
+ .sub-box h4{
+   font-size: 14px !important;
+   line-height: 20px;
+ }
+.sub-box form .form-control{
+    height: 50px;
+    border-radius: 0px;
+    border:1px solid black;
+}
+.sub-box button{
+  position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 35%;
+}
+ .btn{
+  color: #fff;
+  background-color:black;
+  padding: 10px 18px;
+  border: none;
+  border-radius:0px;
+  transition: .5s all ease;
+  -webkit-transition: .5s all ease;
+  position: relative;
+  overflow: hidden;
+}
+/*======================================
  ============== footer =============
  ======================================== */
  /* .footer-wide .container-fluid{
@@ -1333,7 +1377,7 @@ padding-top: 100px;
   background-color: #fffefe;
 }
 .footer-bottom {
-  padding: 100px 0px;
+  padding: 50px 0px;
   color:#787878;
   font-size: 14px;
 }
