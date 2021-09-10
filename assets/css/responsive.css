@@ -50,6 +50,9 @@
         font-size: 70px;
         letter-spacing: 30px;
     }
+.contact-one {
+    padding-right: 375px;
+}
 }
 @media only screen and (max-width: 768px){
     .banner-text h1{
@@ -93,12 +96,18 @@
     .wt-footer-bot-right .copyrights-nav {
         float: none !important;
     }
+    .contact-info {
+        right: 30px;
+        width: 310px;
+        top: 21px;
+    }
     }
 @media only screen and (max-width: 620px){
     .hola strong {
         font-size: 46px;
         line-height: 46px;
     }
+    
     }
 @media only screen and (max-width: 480px){
 .latest-blogs-square {
@@ -206,7 +215,16 @@
 .my-carousel::after {
     display: none;
 }
+.contact-one {
+    padding: 15px;
 }
+.contact-info {
+    right: 0px;
+    width: 100%;
+    top: 0px;
+    position: inherit;
+    margin-top: 40px;
+}}
 
 @media only screen and (max-width: 991px){
 .my-carousel {
@@ -237,6 +255,9 @@
     clear: both;
     float: none;
     padding-left: 30px;
+}
+.contact-one {
+    max-width: 745px;
 }
 }
 @media only screen and (max-width: 460px){
