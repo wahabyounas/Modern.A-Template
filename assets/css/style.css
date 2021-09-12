@@ -1,4 +1,8 @@
 /*======================================
+ ============== preloader =============
+ ======================================== */
+
+/*======================================
  ============== Default CSS =============
  ======================================== */
  :root{
@@ -1053,10 +1057,6 @@ padding-top: 100px;
   position: relative;
   border: 0px;
 }
-/* .wall{
-  margin-left: 10px;
-
-} */
 .testimonials-pic::after , .testimonials-pic::before{
   content: "";
   position: absolute;
@@ -1094,9 +1094,6 @@ padding-top: 100px;
   font-size: 13px;
   line-height: 24px;
 }
-/*======================================
- ============== testimonials =============
- ======================================== */
  #our-clients{
      padding: 40px 0px;
  }
@@ -1106,7 +1103,6 @@ padding-top: 100px;
   font-weight: 600;
   line-height: 30px;
 }
-
 /*======================================
  ============== blogs-page =============
  ======================================== */
@@ -1169,36 +1165,6 @@ padding-top: 100px;
 .banner-breadcrums li a{
   color: white !important;
 }
-/*======================================
- ============== blogs-filter-gallery =============
- ======================================== */
- /*
- .filter-wrap{
-   padding: 50px 0;
- }
- .masonry-filter{
-  display: table; 
-  margin: 0;
- }
- .masonry-filter li{
-   display: inline-block;
-   margin-right: 30px;
-   position: relative;
- }
- .link-style li a{
-   font-size: 16px;
-   color: black !important;
-   font-weight: 600 !important;
- }
- .link-style li::after{
-   content: "/";
-   position: absolute;
-   right: -18px;
-   opacity: 0.3;
- }
- .link-style > li.active a, .link-style > li a:hover, .link-style > li a:active, .link-style > li a:focus {
-  color: #a0a0a0 !important;
-} */
 #blogs-gallery{
   position: relative;
   padding: 90px 0;
@@ -1353,26 +1319,6 @@ padding-top: 100px;
 /*======================================
  ============== footer =============
  ======================================== */
- /* .footer-wide .container-fluid{
-  padding: 0px 80px;
-}
-.footer-links .copyright-nav {
-  list-style: none;
-}
-.footer-links li {
- display: inline-block;
- margin-left: 8px;
- margin-right: 8px;
-}
-.footer-links li:after {
- content: "/";
- position: relative;
- right: -8px;
-}
-.footer-links li a {
- color: #000;
-} */
-
 .footer-light .footer-bottom {
   background-color: #fffefe;
 }

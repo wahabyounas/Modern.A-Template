@@ -61,6 +61,10 @@ $(document).ready(function(){
 // })
 
 // })(jQuery);
+//setTimeout(function(){
+// 	$('.loader-wrap').fadeToggle();
+//   }, 3000);
+
 $('#welcome-carousel').owlCarousel({
 	    loop:true,
 	    margin:0,
