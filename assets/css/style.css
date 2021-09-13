@@ -348,11 +348,13 @@ img {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  padding-right: 55px;
  }
  .w-p-2{
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  padding-right: 55px;
  }
  .my-carousel::after{
   content: "";
@@ -1285,7 +1287,7 @@ padding-top: 100px;
  ============== subscription =============
  ======================================== */
  #subscribe-area{
-  padding-top: 50px;
+  padding-top: 100px;
   color: black;
   background-color: #fffefe;
  }
@@ -1308,7 +1310,7 @@ padding-top: 100px;
  .btn{
   color: #fff;
   background-color:black;
-  padding: 10px 18px;
+  /* padding: 10px 18px; */
   border: none;
   border-radius:0px;
   transition: .5s all ease;
