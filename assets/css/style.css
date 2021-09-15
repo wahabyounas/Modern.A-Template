@@ -257,6 +257,9 @@ img {
    color: #777;
    padding-left: 3px;
  }
+ .modal-backdrop {
+  top: auto;
+}
  /* .form-control{
   display: block;
   width: 100%;
@@ -354,7 +357,7 @@ img {
  .w-p{
   font-size: 14px;
   line-height: 20px;
-  font-weight: 40
+  font-weight: 40;
  }
  .w-p-2{
   font-size: 16px;
@@ -601,7 +604,7 @@ padding-right: 80px;
   margin-bottom: 50px;
   /* margin-left: 40px; */
   position: relative;
-  background-image: url("../images/pic4.jpg");
+  background-image: url("../images/portfolio.jpg");
   background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -883,7 +886,7 @@ padding-right: 80px;
 }
 .overlay-wrapper{
   position: relative;
-  background-image: url("../images/bg1.jpeg");
+  background-image: url("../images/a-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
@@ -929,7 +932,7 @@ padding-right: 80px;
 }
 .overlay-wrapper-2{
   position: relative;
-  background-image: url("../images/blogs4.jpg");
+  background-image: url("../images/a-10\ \(1\).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 525px;
@@ -1013,7 +1016,7 @@ padding-right: 80px;
  ======================================== */
 #counter{  
   position: relative;
-  background-image: url("../images/counter-bg.jpeg");
+  background-image: url("../images/18.1590594935.2193.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
