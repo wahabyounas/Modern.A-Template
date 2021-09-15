@@ -12,11 +12,9 @@
 @media only screen and (max-width: 768px){
     
     .extra-nav{
-        
           right: 15%;
         }
         .extra-nav{
-            
             display: none;
             }
             .video-wrapper{
@@ -101,6 +99,13 @@
         width: 310px;
         top: 21px;
     }
+    #about-us .container{
+        margin-left: 0%;
+    }
+    .mt-50{
+        margin-top: 0%;
+    }
+
     }
 @media only screen and (max-width: 620px){
     .hola strong {
@@ -143,9 +148,6 @@
         }
         .carousel-item img{
             min-height: 60vh;
-        }
-        .video-icon{
-            right:35%
         }
       }
       
@@ -333,9 +335,9 @@
     font-size: 10px;
     letter-spacing: 3px;
 }
-.w-p{
+/* .w-p{
     display: none;
-}
+} */
 }
 @media only screen and (max-width: 360px){
     .d-overlay-content a.v-button {

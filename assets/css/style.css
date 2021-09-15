@@ -60,6 +60,9 @@ img {
 .mt-50{
   margin-top: 50px;
 }
+.fw-600{
+  font-weight: 600 !important;
+}
 .p-lr20{
  padding-left: 20px;
  padding-right: 20px;
@@ -223,7 +226,7 @@ img {
     padding-right: 12px;
   }
   .navbar .navbar-nav .nav-item .nav-link:hover{
-    color: #ababab !important;
+    color:#8e8e8e !important;
   }
   .nav-search-icon a i{
     color: black;
@@ -235,7 +238,7 @@ img {
   height: 50px;
   position: absolute;
   z-index: 9;
-  right: 22px;
+  right: 15px;
   }
 .extra-nav .nav-search-icon {
   display: table-cell;
@@ -244,7 +247,7 @@ img {
 }
 .margin-navbar{
   margin-left: auto;
-  margin-right: 24px;
+  margin-right: 30px;
 }
   /*======================================
  ============== modal =============
@@ -269,6 +272,10 @@ img {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
  } */
+.modal-body .form-inline .form-control{
+  width: 75%;
+}
+.modal { overflow: auto !important; }
  .modal-footer a{
    text-decoration: underline;
    font-size: 12px;
@@ -325,7 +332,6 @@ img {
  .bg-grey{
   
     background-color: #f6f7f8;
-
  }
  .my-carousel {
   position: relative;
@@ -333,28 +339,30 @@ img {
   margin-left: 40px;
 }
  .w-span{
-  font-weight: 200;
-  font-size: 35px;
-  line-height: 40px;
-  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 29px;
+  line-height: 0px;
+  letter-spacing: 1px;
  }
  .w-h2{
-   font-size: 40px;
-   line-height: 40px;
-   font-weight: bold;
-
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 40px!important;
+  margin-top: 10px;
  }
  .w-p{
   font-size: 14px;
   line-height: 20px;
-  font-weight: 400;
-  padding-right: 55px;
+  font-weight: 40
  }
  .w-p-2{
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: justify;
   padding-right: 55px;
+  margin-bottom: 25px!important;
  }
  .my-carousel::after{
   content: "";
@@ -580,8 +588,8 @@ padding-right: 80px;
  .video-icon{
   position: absolute;
     right: 45%;
-    bottom: 40%;
-    transform: translate(-50%,-50%);
+    bottom: 45%;
+    transform: translate(0%,0%);
 }
  .video-icon a i{
    font-size: 55px;
@@ -937,17 +945,20 @@ padding-right: 80px;
 }
 .latest-blogs-square h2{
   font-size: 30px;
-  line-height: 36px;
-  font-weight: 600;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 25px !important;
 }
 .latest-blogs-square a{
   font-size: 14px;
   letter-spacing: 5px;
 }
 .latest-blogs-square p{
+  font-size: 16px;
+  line-height: 22px;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 25px!important;
 }
 .blogs-date-2{
   position: absolute;
@@ -961,8 +972,8 @@ padding-right: 80px;
   display: block;
   font-size: 80px;
   line-height: 70px;
-  font-weight: bolder;
-  
+  letter-spacing: 0px;
+  font-weight: 700;
   color: rgba(191,191,191,0.3);
 }
 
@@ -1027,9 +1038,11 @@ border-right: 0px;
   bottom: -15px;
 }
 .counter-content span{
-  font-size: 40px;
-  font-weight: 300px;
-  line-height: 46px;
+  font-size: 38px;
+  line-height: 0px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 25px !important;
 }
 .counter-content h2{
   font-size: 43px;
@@ -1042,7 +1055,7 @@ border-right: 0px;
   font-weight: 300;
 }
 .counter-main{
-  padding-top: 140px;
+  padding-top: 110px;
 }
 .counter-wrapper{
   position: relative;
@@ -1097,7 +1110,7 @@ padding-top: 100px;
 }
 .testimonials-name{
   color: #000;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 34px;
 }
 .testimonials-position{
@@ -1105,8 +1118,9 @@ padding-top: 100px;
   line-height: 20px;
 }
 .testimonials-paragraph p{
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
+  text-align: justify;
 }
  #our-clients{
      padding: 40px 0px;
@@ -1186,15 +1200,15 @@ padding-top: 100px;
 .filter-button{
   font-size: 18px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
   padding: 8px 20px;
-  border: 1px solid #e2e2e2;
+  border: 1px solid #adadad !important;
   margin-bottom: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) !important;
 }
-.filter-button.active,.filter-button:hover{
-  background-color: #000000;
-  color: rgb(255, 255, 255);
+.filter-button.active{
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
 }
 .btn-default:active .filter-button:active{
   background-color: #000000;
@@ -1441,5 +1455,9 @@ padding-top: 100px;
   border-radius: 50%;
   height: 44px;
   width: 44px;
+}
+.totop:hover{
+  color: #000;
+  background-color: white;
 }
 
