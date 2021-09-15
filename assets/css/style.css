@@ -951,7 +951,12 @@ padding-right: 80px;
 }
 .latest-blogs-square a{
   font-size: 14px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  transition: .4s all ease;
+}
+.latest-blogs-square a:hover{
+  letter-spacing: 6px;
 }
 .latest-blogs-square p{
   font-size: 16px;
@@ -992,6 +997,13 @@ padding-right: 80px;
   padding-right: 20px;
 }
 .bdr-left{
+  border-left: 10px;
+  border-style: solid;
+  padding-left: 20px;
+}
+.bdr-left-1{
+  border:0;
+  color: #ffffff !important;
   border-left: 10px;
   border-style: solid;
   padding-left: 20px;
@@ -1051,7 +1063,7 @@ border-right: 0px;
 }
 .counter-content p{
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   font-weight: 300;
 }
 .counter-main{
