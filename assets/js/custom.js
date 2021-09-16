@@ -1,7 +1,10 @@
+!(function($) {
+	"use strict";
 // Pre-loader
 setTimeout(function(){
 	$('.loader-wrap').fadeToggle();
-  }, 3000);
+  }, 2000);
+
 // venobox
 $(document).ready(function(){
 	$('.venobox').venobox(); 
@@ -181,4 +184,4 @@ $(document).ready(function () {
       }
     });
   });
-	
+})(jQuery);
