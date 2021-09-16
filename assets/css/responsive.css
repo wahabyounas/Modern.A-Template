@@ -14,7 +14,9 @@
     .extra-nav{
           display: none;
         }
-     
+     .w-p-2{
+         padding: auto;
+     }
             .video-wrapper{
                 margin-right: 0;
             }
