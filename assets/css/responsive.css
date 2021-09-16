@@ -12,7 +12,7 @@
 @media only screen and (max-width: 768px){
     
     .extra-nav{
-          right: 15%;
+          display: none;
         }
      
             .video-wrapper{
@@ -375,8 +375,14 @@
 }
 @media only screen and (max-width: 576px){
 .counter-content h2 {
-    font-size: 30px;
-  
+    font-size: 30px;  
+}
+.btn-filter-wrap{
+   float:none; 
+}
+.footer-wide .container {
+    padding: 0%;
+    /* padding: 0px 80px; */
 }
 .counter-content span {
     font-size: 30px;
