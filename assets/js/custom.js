@@ -1,69 +1,12 @@
-// !(function($) {
-// 	"use strict";
-
-// // PreLoader
-// setTimeout(function(){
-// 	$('.loader-wrap').fadeToggle();
-//   }, 3000);
-
-// // Sticky Navbar
-// window.onscroll = function() {myFunction()};
-// var navbar = document.getElementById("mynavbar");
-// function myFunction() {
-//   if (window.pageYOffset >= 60) {
-// 	navbar.classList.add("sticky")
-//   } else {
-// 	navbar.classList.remove("sticky");
-//   }
-// }
-  //VenoBox 
-//  
+// Pre-loader
+setTimeout(function(){
+	$('.loader-wrap').fadeToggle();
+  }, 3000);
+// venobox
 $(document).ready(function(){
 	$('.venobox').venobox(); 
 });
-// //counter
-// // $('[.counter"]').counterUp({
-// // 	delay: 10,
-// // 	time: 1000
-// //   }); 
-// $('.counter-count').each(function () {
-// 	$(this).prop('Counter',0).animate({
-// 		Counter: $(this).text()
-// 	}, {
-	  
-// 	  //chnage count up speed here
-// 		duration: 4000,
-// 		easing: 'swing',
-// 		step: function (now) {
-// 			$(this).text(Math.ceil(now));
-// 		}
-// 	});
-// });
-
-// //   Owl Carousel
-
-// //   
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:
-//         },
-//         600:{
-//             items:2
-//         },
-//         1000:{
-//             items:2
-//         }
-//     }
-// })
-
-// })(jQuery);
-//setTimeout(function(){
-// 	$('.loader-wrap').fadeToggle();
-//   }, 3000);
+// Welcome-corusel
 $('#welcome-carousel').owlCarousel({
 	    loop:true,
 	    margin:0,
@@ -85,6 +28,7 @@ $('#welcome-carousel').owlCarousel({
 	        }
 	    }
 	})
+// Testimonial-carousel
 	$('#testimonials-carousel').owlCarousel({
 	    loop:true,
 	    margin:50,
@@ -106,6 +50,7 @@ $('#welcome-carousel').owlCarousel({
 	        }
 	    }
 	})
+// Clients-carousel
 	$('#our-clients-carousel').owlCarousel({
 	    loop:true,
 	    margin:5,
@@ -127,6 +72,7 @@ $('#welcome-carousel').owlCarousel({
 	        }
 	    }
 	})
+// design-carousel
 	$('#designs-carousel').owlCarousel({
 	    loop:true,
 	    margin:20,
@@ -152,8 +98,7 @@ $('#welcome-carousel').owlCarousel({
 			}
 	    }
 	})
-
-
+// owl-carousel
 	$('.owl-carousel').owlCarousel({
 		loop:true,
 		margin:10,
@@ -173,6 +118,7 @@ $('#welcome-carousel').owlCarousel({
 			}
 		}
 	})
+// Filter-Gallery
 	$(document).ready(function(){
 		$('.btn-filter').click(function(){
 		  const value = $(this).attr('data-filter');
@@ -202,8 +148,6 @@ $('#welcome-carousel').owlCarousel({
 			}
 		});
 	});
-
-
 	window.onscroll=function(){
 		myfunction()
 	};
@@ -216,7 +160,7 @@ $('#welcome-carousel').owlCarousel({
 			navbar.classList.remove("sticky");
 		}
 	}
-	/*===========================
+/*===========================
 ====== Porfolio Filter ======
 =============================*/
 $(document).ready(function () {
