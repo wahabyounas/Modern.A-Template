@@ -131,7 +131,7 @@ $('#welcome-carousel').owlCarousel({
 	    loop:true,
 	    margin:20,
 		autoplay:false,
-	    nav:true,
+	    nav:false,
 		dots:false,
 	    autoplayHoverPause:true,
 	    responsive:{
