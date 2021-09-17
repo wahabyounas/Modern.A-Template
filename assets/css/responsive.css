@@ -274,8 +274,13 @@
     .navbar-toggler{
         padding: -0.75rem 0.75rem !important;
     }
+    .txt-center-flex{
+        text-align: center;
     }
-
+    .txt-center{
+        text-align: center;
+    }
+    }
     @media only screen and (max-width: 480px){
    .latest-blogs-square {
         padding: 15px;
